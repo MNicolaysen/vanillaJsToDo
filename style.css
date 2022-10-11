@@ -3,6 +3,7 @@
   --business: #3a82ee;
   --personal: var(--primary);
   --light: #eee;
+  --grey: #888;
   --dark: #313154;
   --danger: #ff5b57;
 
@@ -42,5 +43,12 @@ h3 {
   color: var(--dark);
   font-size: 1rem;
   font-weight: 400;
+  margin-bottom: 0.5rem;
+}
+
+h4 {
+  color: var(--grey);
+  font-weight: 0.875rem;
+  font-weight: 700;
   margin-bottom: 0.5rem;
 }
