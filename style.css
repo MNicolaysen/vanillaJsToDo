@@ -3,7 +3,7 @@
   --business: #3a82ee;
   --personal: var(--primary);
   --light: #eee;
-  --grey: #fff;
+  --grey: #888;
   --dark: #313154;
   --danger: #ff5b57;
 
@@ -39,6 +39,14 @@ section {
   margin-right: 1.5rem;
 }
 
+h2,
+h2 input {
+  font-family: 'Times New Roman', Times;
+  font-size: 1.7rem;
+  color: var(--dark);
+  font-weight: 700;
+}
+
 h3 {
   color: var(--dark);
   font-size: 1rem;
@@ -48,7 +56,7 @@ h3 {
 
 h4 {
   color: var(--grey);
-  font-weight: 0.875rem;
+  font-size: 0.875rem;
   font-weight: 700;
   margin-bottom: 0.5rem;
 }
